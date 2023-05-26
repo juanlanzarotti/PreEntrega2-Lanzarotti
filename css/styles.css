@@ -1,0 +1,299 @@
+/* styles.css */
+
+/* RESET */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo-img {
+  max-height: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Estilos de la sección hero */
+
+.hero {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Estilos de la sección productos */
+
+.products {
+  padding: 50px 0;
+}
+
+.products h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.products .card {
+  margin-bottom: 20px;
+}
+
+.products .card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.products .card-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.products .card-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Estilos del footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+/* Estilos de los medios de pago */
+
+.payment-methods {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.payment-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.payment-icon img {
+  width: 60px;
+  height: auto;
+}
+
+
+/* Estilos de la sección Insumos */
+
+.products .insumos {
+  margin-top: 40px;
+}
+
+.products .insumos h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos de la sección Equipamiento */
+
+.products .equipamiento {
+  margin-top: 40px;
+}
+
+.products .equipamiento h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  /* Estilos para dispositivos móviles */
+  .equipamiento {
+    display: none;
+  }
+}
+
+
+/* Estilos para contacto */
+
+.whatsapp,
+.telefono,
+.mail {
+  margin-bottom: 8px; /* Ajusta el margen inferior entre los elementos */
+}
+
+.ubicacion {
+  margin-bottom: 40px; /* Ajusta el margen inferior después de la ubicación */
+}
+
+.form-group {
+  margin-bottom: 5px; /* Ajusta el margen inferior entre los elementos */
+}
+
+.form-buttons {
+  margin-top: 20px; /* Ajusta el margen superior entre los botones y los campos de entrada */
+  margin-bottom: 150px; /* Ajusta el margen superior entre los botones y los campos de entrada */
+}
+
+
+/* Estilos para ubicacion.html */
+
+
+body.ubicacion-page .tienda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+body.ubicacion-page .tienda h2 {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+body.ubicacion-page .tienda iframe {
+  width: 100%;
+  height: 200px;
+  border: 0;
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+
+/* Estilos del equipo */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.conocenos {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.team {
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* Finalmente en el proyecto utilice: Bootstrap, Flex y GRID */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
